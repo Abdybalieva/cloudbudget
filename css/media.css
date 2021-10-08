@@ -1,0 +1,225 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .overview-play-button {
+
+        top: 160px;
+        left: 50px;
+
+    }
+    .overview-video {
+        top: 40px;
+        left: 80px;
+    }
+
+    .features-info {
+        height: 245px;
+        max-width: 240px;
+    }
+    .stay-focused-photo-1 {
+        height: 280px;
+        top: -25px;
+    }
+
+    .stay-focused-photo-2 {
+        height: 240px;
+
+    }
+
+    .stay-focused-photo-3 {
+        height: 240px;
+    }
+    .hero {
+        padding: 140px 0 70px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 780px;
+    }
+    .header-ul{
+        display: none;
+    }
+    .mobile-menu{
+
+        /*display: flex;*/
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #ED4C5C;
+        width: 50vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+    .header-nav-li{
+        margin: 0 0 10px ;
+    }
+    .burger-menu-box{
+        display: block;
+    }
+    .hero{
+        padding: 180px 0 100px;
+        min-height: 530px;
+    }
+    .hero-title{
+        font-size: 55px;
+    }
+    .hero-text{
+        font-size: 18px;
+    }
+
+    .buttons-box{
+        display: none;
+    }
+    .overview{
+        padding: 95px 0 30px;
+    }
+    .overview-play-button {
+        top: 133px;
+        left: 45px;
+    }
+    .overview-title{
+        max-width: 320px;
+        font-size: 28px;
+    }
+
+    .stay-focused-photo-1 {
+        height: 250px;
+        top: 10px;
+        right: -50px;
+    }
+
+    .stay-focused-photo-2 {
+        height: 240px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .stay-focused-photo-3 {
+        top: 15px;
+        left: 60px;
+    }
+    .features-info {
+        height: 245px;
+        max-width: 200px;
+    }
+    .name-input, .last-input{
+        width: 175px;
+
+    }
+    .features-title{
+        margin-bottom: 40px;
+    }
+    .features {
+        padding: -15px 0 120px;
+    }
+    .features-info{
+        min-height: 230px;
+        padding: 25px 25px 20px;
+    }
+    .features-info-title{
+        font-size: 16px;
+    }
+    .features-info-text{
+        font-size: 14px;
+    }
+    .technology-title{
+        margin-bottom: 30px;
+    }
+    .stay-focused{
+        padding: 80px 0 95px;
+    }
+    .stay-focused-title{
+        max-width: 350px;
+        font-size: 28px;
+        margin-bottom: 5px;
+        min-height: 70px;
+    }
+    .contact{
+        padding: 60px 0 40px;
+    }
+    .contact-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .features-info {
+        max-width: 150px;
+    }
+    .features {
+        padding: 19px 0 229px;
+    }
+    .technology {
+        padding: -13px 0 108px;
+    }
+
+
+}
+
+
+
+@media (max-width: 768px){
+    .container{
+        max-width: 600px;
+    }
+    .col-3{
+        width: 50%;
+    }
+    .overview-video {
+        top: 82px;
+        left: 51px;
+    }
+    .overview-play-button {
+        top: 155px;
+        left: 14px;
+    }
+    .technology-card{
+        position: relative;
+        padding: 0 25px 4px;
+    }
+
+    .technology-card-title {
+        top: 118px;
+        left: 57px;
+    }
+    .overview-title {
+        max-width: 354px;
+        font-size: 30px;
+    }
+        .overview-video {
+            top: 70px;
+            left: 10px;
+        }
+    .overview-play-button {
+        top: 133px;
+        left: -20px;
+    }
+    .overview {
+        padding: 51px 0 30px;
+    }
+    .stay-focused-photo-2 {
+
+        right: -57px;
+    }
+    .stay-focused-photo-3 {
+
+        left: 26px;
+    }
+
+}
+@media (max-width: 576px){
+    .hero-title {
+        font-size: 42px;
+    }
+    .hero-text {
+        font-size: 20px;
+    }
+
+
+}
